@@ -54,6 +54,16 @@ Use `scripts/context.py miles` with sourced coordinates. If execution is unavail
 
 Use current-season team PPG and games played as the common scoring reference. Supplement with opponent points allowed, pace, offensive rating, defensive rating, and net rating where available. Recent form usually means the last ten games, or all available games if fewer; identify the sample. Make home/away and lineup splits explicit when they materially affect the comparison.
 
+### Team and player momentum
+
+Treat “momentum” as a descriptive, testable recent-form signal, not as a force that independently causes future results. Establish each team's recent trend over a labeled window (normally the last five to ten games, or all available games early in the season) and compare it with its current-season baseline. Use underlying indicators where accessible—net rating, offensive and defensive efficiency, shot quality/profile, turnover and rebounding rates, and free-throw generation—alongside results. A win/loss streak or recent point total alone is not enough.
+
+For a player whose role can materially affect the requested full-game market, compare a labeled recent sample with that player's season baseline. Check minutes and starting/rotation role, usage and touches, shot volume/profile and efficiency, playmaking/turnovers, rebounding or defense as relevant to the matchup, and whether the role or health changed. Use recent box scores, game logs, lineup reports, or other directly inspected sources. Do not infer a minutes increase, return to form, or breakout from headlines or a small run of results. Player props remain out of scope unless separately requested.
+
+For both team and player trends, account for opponent quality, home/road split, lineup availability and continuity, schedule density, rest, recent overtime, and meaningful role changes. Separate process changes (such as a verified rotation or shot-profile shift) from noisy outcomes (such as a brief hot shooting stretch). State the sample dates or number of games, source cutoff, and any limitation. Early-season or very small samples should carry less weight. Do not blend prior-season performance into the current baseline without labeling it and explaining relevant roster or role changes.
+
+Use a recent-form signal to qualify the matchup analysis only when it is verified, relevant to the market, and not already counted elsewhere. Do not double-count the same games as separate evidence for momentum, recent team stats, and player form. Momentum can strengthen, weaken, or leave an angle unchanged; it cannot establish an edge on its own, justify a numeric adjustment, or replace comparison with the current price.
+
 Use the season as the baseline and recent form as context; account for changes in opponent strength, personnel, and shooting variance. Early-season data is limited. If last season is useful, label it separately and explain roster changes rather than silently blending samples. Never substitute points per 100 possessions for PPG.
 
 For injuries, focus on creation, ball handling, rim protection, spacing, usage, minutes restrictions, and replacement depth. Long-term absences may already be reflected in the season baseline and market. Avoid adjusting twice for the same absence or assigning invented point values. Confirm lineup/rotation changes before treating them as facts.

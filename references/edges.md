@@ -14,6 +14,8 @@ Opening versus current lines can describe movement only when both are sourced fo
 
 Assess spread, total, and moneyline internally before choosing the game's best angle. Ask which factors the market likely already reflects, what evidence suggests remaining value **at this quote**, and what argues against the selection. A likely winner is not automatically a good moneyline bet, nor does a rest advantage alone justify laying a spread.
 
+Treat team or player momentum as recent-form context, not a standalone betting reason. A trend supports an angle only when its sample, role/lineup context, and relevant underlying indicators are verified and it adds evidence beyond factors already counted. A winning streak, hot shooting run, or short-lived box-score spike may be noise or already priced in; explain the strongest regression or opponent-quality counterargument.
+
 For totals, combine pace and scoring efficiency with opponent defense, shot profile, personnel, and overtime/variance context. Simply adding the teams' PPG, averaging recent final scores, or summing missing players' PPG does not produce a fair total. Treat any unsupported precise projection as unavailable rather than manufacturing one.
 
 Rest, travel, schedule density, and fatigue overlap. Injury effects can already appear in recent performance and odds. Avoid counting correlated observations as independent evidence. Explain why a factor may still matter after accounting for the market rather than assigning rigid weights or point adjustments.
