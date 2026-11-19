@@ -1,6 +1,6 @@
 # NBA Betting Preview
 
-A portable Agent Skill for sourced NBA slate and matchup previews. It covers the full-game spread, total, and moneyline, with schedule/rest, approximate travel, injuries, scoring context, and qualitative betting edges.
+A portable Agent Skill for sourced NBA game predictions and betting previews. It covers the full-game spread, total, and moneyline, with schedule/rest, approximate travel, injuries, scoring context, and qualitative betting edges. A named matchup is the default scope; the skill scans a full slate only when explicitly requested.
 
 ## Install
 
@@ -12,7 +12,7 @@ git clone https://github.com/sharpredux/nba-betting-preview.git
 
 For Codex, you can ask `$skill-installer` to install the skill from this GitHub repository, or copy the cloned folder into a Codex skills directory. Other agents may use a different directory or installation flow; check that agent’s Agent Skills documentation. The package follows the open `SKILL.md` Agent Skills format, but compatibility and discovery depend on the host agent.
 
-After installation, invoke it in Codex with `$nba-betting-preview`. In other compatible agents, ask for the `nba-betting-preview` skill by name.
+After installation, Codex can select the skill automatically for NBA matchup prediction and betting questions, or you can invoke it with `$nba-betting-preview`. It analyzes only the named or contextually clear game; ask for a full slate when you want all games. In other compatible agents, ask for the `nba-betting-preview` skill by name.
 
 ## Requirements and limits
 

@@ -1,4 +1,6 @@
 interface:
   display_name: "NBA Betting Preview"
-  short_description: "NBA slate previews with sourced betting context"
-  default_prompt: "Use $nba-betting-preview to preview today’s NBA games with rest, travel, injuries, current lines, and ranked qualitative edges."
+  short_description: "Single-game NBA previews with sourced betting context"
+  default_prompt: "Use $nba-betting-preview to analyze only the NBA game I named, with current sourced odds, injuries, rest, travel, and team/player form."
+policy:
+  allow_implicit_invocation: true

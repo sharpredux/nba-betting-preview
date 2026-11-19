@@ -1,6 +1,6 @@
 ---
 name: nba-betting-preview
-description: "Preview NBA games for betting research with current sourced lines, injuries, rest, travel estimates, scoring context, and ranked qualitative edges. Use for an NBA slate or named matchup, including spread, total, and moneyline analysis."
+description: "Analyze a specific NBA matchup for predictions or betting research using current sourced odds, injuries, rest, travel, scoring, and team/player form. Automatically use when the user asks about an NBA game, matchup, pick, prediction, spread, total, or moneyline. Cover only the named or contextually identified game; scan the full slate only when explicitly requested."
 ---
 
 # NBA Betting Preview
@@ -9,11 +9,14 @@ Produce a compact, evidence-based preview for every requested game. Use basketba
 
 ## Defaults and invocation
 
-- `$nba-betting-preview` covers today's full NBA slate in **Asia/Manila**. A supplied date uses that timezone unless the user specifies another. A named matchup narrows coverage; resolve its next scheduled meeting if no date is supplied and state the date.
-- The local date means tipoffs within local midnight to the following midnight. Fetch all NBA/ET schedule dates that intersect that interval, then filter by actual tipoff timestamps. Do not equate a Philippine date with the NBA's ET game date.
-- Show all games in the date window; label started, final, postponed, or canceled games and give pregame recommendations only for games still scheduled to start. If none remain, say so without silently moving to tomorrow.
+- Use this skill automatically for requests to preview, predict, or assess betting markets for an NBA game, even when the user does not invoke the skill by name.
+- A named or contextually clear matchup means **that game only**. Do not add other games, a slate summary, or unrelated picks. Cover multiple games only when the user explicitly asks for a slate, all games, or multiple named matchups.
+- If the user asks about a game but neither the prompt nor conversation context identifies the matchup, ask which game they mean. A bare `$nba-betting-preview` invocation or date-only request does not imply a full-slate request.
+- For a named matchup with no date, resolve its next scheduled meeting and state the date. Use **Asia/Manila** unless the user specifies another timezone.
+- The local date means tipoffs within local midnight to the following midnight. For an explicit slate request, fetch all NBA/ET schedule dates that intersect that interval, then filter by actual tipoff timestamps. Do not equate a Philippine date with the NBA's ET game date.
+- For each requested game, label started, final, postponed, or canceled status and give pregame recommendations only if it is still scheduled to start. If none of the requested games remain upcoming, say so without silently moving to tomorrow.
 - Evaluate full-game spread, total, and moneyline. Default to current public consensus context with named sources. Explicit user lines or a requested sportsbook take precedence and retain their as-of time. Player props require a separate request.
-- Lead with the quick scan below. Expand a matchup when requested or when a material exception needs explanation. For a comprehensive report on a specific game, use the report-readiness check below. Do not suggest stakes or bankroll allocation.
+- Lead with the quick scan below for the requested game or games. Expand a matchup when requested or when a material exception needs explanation. For a comprehensive report on a specific game, use the report-readiness check below. Do not suggest stakes or bankroll allocation.
 
 ## Research workflow
 
@@ -29,8 +32,8 @@ Search results are discovery leads, not verification. When a required field is m
 - For scoring and statistics, inspect a current-season team-stat table and verify the season, regular-season/postseason scope, games played, and cutoff date. Do not fill missing PPG from memory or from a differently dated source without labeling it.
 - If the first source is blocked, incomplete, or gives only a snippet, try another direct source instead of repeating the same failed fetch. Continue targeted research for material gaps before drafting. If evidence remains unavailable or sources conflict, state exactly what is unresolved and pass on any conclusion that depends on it; do not manufacture a completion.
 
-1. Establish the target date, timezone, current time, season, game IDs, venues, tipoffs, and game status. Reconcile the complete schedule before researching individual games.
-2. Batch shared sources: schedule and recent team game logs, the latest applicable official injury report, team statistics, and the odds board. Keep a working record per game of both teams, rest/B2B, previous venues, miles, injuries, markets/prices, PPG, other relevant factors, source links, and source/observation times. Mark unavailable fields explicitly.
+1. Establish the requested matchup(s), date, timezone, current time, season, game IDs, venues, tipoffs, and game status. Verify the schedule row for each requested game; reconcile the full schedule only for an explicit slate request.
+2. Batch shared sources for the requested game(s): schedule and recent team game logs, the latest applicable official injury report, team statistics, and the odds board. Keep a working record per game of both teams, rest/B2B, previous venues, miles, injuries, markets/prices, PPG, other relevant factors, source links, and source/observation times. Mark unavailable fields explicitly.
 3. For **each team**, verify its previous actual game and recent schedule. Show back-to-back status and days off; check 3-in-4 or 4-in-6 stretches, recent overtime, and large timezone changes when relevant. Use NBA/ET game dates for schedule density. Compute approximate miles from the previous game venue to the current venue; label the route and estimate. See the calculation helpers below.
 4. Verify player statuses for this matchup and report issue time. Explain important absences through role, expected minutes, replacement quality, and lineup effects. Separate confirmed facts from expectations. For a material questionable player, show how the view changes if in or out; hold the affected recommendation when that uncertainty could reverse it.
 5. Record current spread, total, and moneyline with the **price/juice**, market period, bookmaker or aggregator, and observation time. Cross-check consensus where possible and retain material ranges. Read [the edge guide](references/edges.md) before assigning ratings or ranking bets.
@@ -39,7 +42,7 @@ Search results are discovery leads, not verification. When a required field is m
 
 ## First response
 
-Open with the selected local date/timezone and analysis time. Present one compact row or short card per game, in tipoff order, with these fields:
+Open with the selected local date/timezone and analysis time. Present one compact row or short card per requested game, in tipoff order, with these fields. For a single-game request, include only that matchup:
 
 | Field | Required content |
 | --- | --- |
