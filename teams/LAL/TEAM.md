@@ -1,7 +1,7 @@
 ---
 team: LAL
 season: 2026-27
-last_refreshed_at: 2026-11-19T01:35:15Z
+last_refreshed_at: 2026-11-19T03:20:32Z
 ---
 # Los Angeles Lakers
 
@@ -11,9 +11,13 @@ Head coach: JJ Redick. Over five completed games (2026-11-08 through 2026-11-17 
 
 Fourth-quarter starter counts at 6:00 and 2:00 remaining, reconstructed from substitutions in 5/5 games: ahead by 10+: 2.7 (3 observations); within 5: 3.2 (4 observations); behind by 10+: no observations. With a double-digit lead: 3.0 at 6:00 (2 observations), 2.0 at 2:00 (1 observations). On 2026-11-11 against MIL, at 2:00 left and +18, 2 starters were on court (Luka Doncic, Walker Kessler). **Low confidence** for projecting future substitutions. Checkpoints can share a game and depend on player availability, foul trouble and time remaining.
 
+On the Nov. 18 ET refresh, ESPN still listed the same five completed games and the coaches directory still listed JJ Redick. In the latest completed game, Quentin Grimes led team scoring with 47 points in 42 minutes. This is one box score observation.
+
 ## On-court tendencies
 
 StatsNext season snapshot through Nov. 17 ET: 122.5 scored and 114.8 allowed per game, 100.1 pace, 121.6 offensive and 113.7 defensive points per 100 possessions, 44.3% three-point attempt rate. Last five (4 away): 5–0, 123.4 scored and 115.8 allowed per game, 43.2% of attempts from three, 56.2% effective field goal rate, 32.4% offensive rebound rate and 15.8 turnovers/game. **Descriptive sample**. Opponent quality and lineup changes can shift these rates.
+
+ESPN completed-game baseline for 15 regular-season games through the last completed game: 122.5 points scored and 114.8 allowed per game.
 
 ## Competitive posture
 
@@ -23,3 +27,4 @@ ESPN record after the latest sampled game: 13-2 (2026-11-17 ET). The preseason o
 
 - [Current coaches directory](https://hoopsnightly.com/coaches) · [NBA season preview](https://www.nba.com/news/2026-27-season-preview-lal) · [Season stats](https://statsnext.com/nba/team-stats)
 - Game box scores and play-by-play: [2026-11-08 vs DET](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909946) · [2026-11-09 vs ATL](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909952) · [2026-11-11 vs MIL](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909971) · [2026-11-15 vs PHX](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909986) · [2026-11-17 vs CHA](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401910005)
+- [ESPN season schedule and results](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/lal/schedule?season=2027)
