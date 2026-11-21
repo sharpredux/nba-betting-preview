@@ -1,30 +1,29 @@
 ---
 team: PHX
 season: 2026-27
-last_refreshed_at: 2026-11-19T03:20:32Z
+last_refreshed_at: 2026-11-21T02:48:36Z
 ---
 # Phoenix Suns
 
 ## Coaching and rotations
 
-Head coach: Jordan Ott. Over five completed games (2026-11-09 through 2026-11-16 ET), most frequent starters included Devin Booker (5/5 starts, 31.6 min/game); Dillon Brooks (5/5 starts, 25.4 min/game); Miles Bridges (5/5 starts, 24.4 min/game). Collin Gillespie averaged 25.4 min/game with 5 bench appearances. Minutes are averaged across all five games.
+Head coach is Jordan Ott. Most frequent starters over five completed games (2026-11-10 through 2026-11-18 ET) included Devin Booker (5/5 starts, 32.4 MPG), Dillon Brooks (5/5 starts, 26.4 MPG), Miles Bridges (5/5 starts, 25.0 MPG). Collin Gillespie came off the bench in 5/5 and averaged 24.0 minutes across the five games, including any starts.
 
-Fourth-quarter starter counts at 6:00 and 2:00 remaining, reconstructed from substitutions in 5/5 games: ahead by 10+: 2.0 (4 observations); within 5: 2.0 (1 observations); behind by 10+: 0.0 (3 observations). With a double-digit lead: 2.0 at 6:00 (2 observations), 2.0 at 2:00 (2 observations). On 2026-11-16 against DEN, at 2:00 left and +12, 4 starters were on court (Devin Booker, Dillon Brooks, Miles Bridges, Jalen Green). **Low confidence** for projecting future substitutions. Checkpoints can share a game and depend on player availability, foul trouble and time remaining.
-
-On the Nov. 18 ET refresh, ESPN still listed the same five completed games and the coaches directory still listed Jordan Ott. In the latest completed game, Devin Booker led team scoring with 20 points in 37 minutes. This is one box score observation.
+Lineups reconstructed from substitutions at 6:00 and 2:00 left in the fourth quarter yielded 10/10 usable checkpoints. Ahead by 10+, 2.0 starters on court (6 checkpoints). within five, 2.0 starters on court (1 checkpoint). behind by 10+, 0.0 starters on court (1 checkpoint). Individual games can contribute twice. Score, fouls and availability affect the observed groups.
 
 ## On-court tendencies
 
-StatsNext season snapshot through Nov. 17 ET: 113 scored and 116.4 allowed per game, 98.9 pace, 114.5 offensive and 117.5 defensive points per 100 possessions, 42.4% three-point attempt rate. Last five (1 away): 3–2, 114.0 scored and 112.8 allowed per game, 43.2% of attempts from three, 54.5% effective field goal rate, 27.5% offensive rebound rate and 13.6 turnovers/game. **Descriptive sample**. Opponent quality and lineup changes can shift these rates.
-
-ESPN completed-game baseline for 13 regular-season games through the last completed game: 113.0 points scored and 116.4 allowed per game.
+StatsNext through November 19 ET, 2026-27 regular season. 114.1 points scored and 115.7 allowed per game, 98.9 pace, 115.6 offensive and 116.8 defensive points per 100 possessions, -1.2 net rating, 55.4% effective field-goal rate and 42.3% three-point attempt rate. Over the latest five completed games (2026-11-10 through 2026-11-18 ET), the team went 4–1 and averaged 120.4 scored and 109.8 allowed per game. The latest game was a 128–107 road result against SAC. Recent scoring is descriptive and depends on opponent, lineup and venue.
 
 ## Competitive posture
 
-ESPN record after the latest sampled game: 6-7 (2026-11-16 ET). The preseason outlook describes a push to advance beyond the first round, building on prior defensive gains and adding Miles Bridges to a Booker-led team. **Preseason context** from NBA.com. Current game-specific effort, deliberate losing and any special incentive remain **unknown** without newer evidence.
+The team was 7-7 in the regular season entering November 20 ET. Specific game-by-game rotation or development goals remain unconfirmed.
+
+NBA.com preseason outlook. The preseason outlook describes a push to advance beyond the first round, building on prior defensive gains and adding Miles Bridges to a Booker-led team.
 
 ## Sources
 
-- [Current coaches directory](https://hoopsnightly.com/coaches) · [NBA season preview](https://www.nba.com/news/2026-27-season-preview-phx) · [Season stats](https://statsnext.com/nba/team-stats)
-- Game box scores and play-by-play: [2026-11-09 vs SAS](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909958) · [2026-11-10 vs LAC](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909962) · [2026-11-12 vs CHA](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909979) · [2026-11-15 vs LAL](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909986) · [2026-11-16 vs DEN](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401910001)
-- [ESPN season schedule and results](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/phx/schedule?season=2027)
+- [2026-27 coaching directory](https://hoopsnightly.com/coaches)
+- [2026-27 team performance through November 19 ET](https://statsnext.com/nba/team-stats)
+- Latest five game box scores and play-by-play. [2026-11-10 vs LAC](https://www.espn.com/nba/game/_/gameId/401909962) · [2026-11-12 vs CHA](https://www.espn.com/nba/game/_/gameId/401909979) · [2026-11-15 vs LAL](https://www.espn.com/nba/game/_/gameId/401909986) · [2026-11-16 vs DEN](https://www.espn.com/nba/game/_/gameId/401910001) · [2026-11-18 vs SAC](https://www.espn.com/nba/game/_/gameId/401910018)
+- [NBA season preview](https://www.nba.com/news/2026-27-season-preview-phx)

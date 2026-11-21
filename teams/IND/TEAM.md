@@ -1,25 +1,29 @@
 ---
 team: IND
 season: 2026-27
-last_refreshed_at: 2026-11-19T01:35:15Z
+last_refreshed_at: 2026-11-21T02:48:36Z
 ---
 # Indiana Pacers
 
 ## Coaching and rotations
 
-Head coach: Rick Carlisle. Over five completed games (2026-11-07 through 2026-11-15 ET), most frequent starters included Pascal Siakam (5/5 starts, 33.0 min/game); Aaron Nesmith (5/5 starts, 30.4 min/game); Ivica Zubac (5/5 starts, 25.2 min/game). Obi Toppin averaged 17.4 min/game with 5 bench appearances. Minutes are averaged across all five games.
+Head coach is Rick Carlisle. Most frequent starters over five completed games (2026-11-09 through 2026-11-18 ET) included Pascal Siakam (5/5 starts, 33.2 MPG), Aaron Nesmith (5/5 starts, 30.8 MPG), Ivica Zubac (5/5 starts, 26.2 MPG). Quenton Jackson came off the bench in 3/5 and averaged 23.6 minutes across the five games, including any starts.
 
-Fourth-quarter starter counts at 6:00 and 2:00 remaining, reconstructed from substitutions in 5/5 games: ahead by 10+: 2.7 (3 observations); within 5: 2.5 (2 observations); behind by 10+: no observations. With a double-digit lead: 2.0 at 6:00 (2 observations), 4.0 at 2:00 (1 observations). On 2026-11-11 against WAS, at 2:00 left and +16, 4 starters were on court (Kelly Oubre Jr., Pascal Siakam, Ivica Zubac, Andrew Nembhard). **Low confidence** for projecting future substitutions. Checkpoints can share a game and depend on player availability, foul trouble and time remaining.
+Lineups reconstructed from substitutions at 6:00 and 2:00 left in the fourth quarter yielded 10/10 usable checkpoints. Ahead by 10+, 2.7 starters on court (3 checkpoints). within five, 2.5 starters on court (2 checkpoints). behind by 10+, 2.5 starters on court (2 checkpoints). Individual games can contribute twice. Score, fouls and availability affect the observed groups.
 
 ## On-court tendencies
 
-StatsNext season snapshot through Nov. 17 ET: 112.1 scored and 114.5 allowed per game, 101.3 pace, 110.9 offensive and 112.9 defensive points per 100 possessions, 41.5% three-point attempt rate. Last five (2 away): 2–3, 113.6 scored and 115.0 allowed per game, 39.2% of attempts from three, 54.4% effective field goal rate, 20.6% offensive rebound rate and 12.2 turnovers/game. **Descriptive sample**. Opponent quality and lineup changes can shift these rates.
+StatsNext through November 19 ET, 2026-27 regular season. 111.5 points scored and 114.8 allowed per game, 100.9 pace, 110.7 offensive and 113.6 defensive points per 100 possessions, -2.9 net rating, 53.9% effective field-goal rate and 41.4% three-point attempt rate. Over the latest five completed games (2026-11-09 through 2026-11-18 ET), the team went 2–3 and averaged 114.0 scored and 116.0 allowed per game. The latest game was a 104–119 home result against HOU. Recent scoring is descriptive and depends on opponent, lineup and venue.
 
 ## Competitive posture
 
-ESPN record after the latest sampled game: 5-9 (2026-11-15 ET). The preseason outlook describes a rebound toward playoff contention around Tyrese Haliburton and an upgraded frontcourt. Use current availability to assess this goal. **Preseason context** from NBA.com. Current game-specific effort, deliberate losing and any special incentive remain **unknown** without newer evidence.
+The team was 5-10 in the regular season entering November 20 ET. Specific game-by-game rotation or development goals remain unconfirmed.
+
+NBA.com preseason outlook. The preseason outlook describes a rebound toward playoff contention around Tyrese Haliburton and an upgraded frontcourt. Use current availability to assess this goal.
 
 ## Sources
 
-- [Current coaches directory](https://hoopsnightly.com/coaches) · [NBA season preview](https://www.nba.com/news/2026-27-season-preview-ind) · [Season stats](https://statsnext.com/nba/team-stats)
-- Game box scores and play-by-play: [2026-11-07 vs DEN](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909938) · [2026-11-09 vs DAL](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909956) · [2026-11-11 vs WAS](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909966) · [2026-11-13 vs NYK](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909296) · [2026-11-15 vs PHI](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909985)
+- [2026-27 coaching directory](https://hoopsnightly.com/coaches)
+- [2026-27 team performance through November 19 ET](https://statsnext.com/nba/team-stats)
+- Latest five game box scores and play-by-play. [2026-11-09 vs DAL](https://www.espn.com/nba/game/_/gameId/401909956) · [2026-11-11 vs WAS](https://www.espn.com/nba/game/_/gameId/401909966) · [2026-11-13 vs NYK](https://www.espn.com/nba/game/_/gameId/401909296) · [2026-11-15 vs PHI](https://www.espn.com/nba/game/_/gameId/401909985) · [2026-11-18 vs HOU](https://www.espn.com/nba/game/_/gameId/401910008)
+- [NBA season preview](https://www.nba.com/news/2026-27-season-preview-ind)
